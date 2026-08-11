@@ -11,3 +11,8 @@ void display(int size,...)
         cout<<n<<endl;
     }
 }
+int main()
+{
+    display(2,10,20);
+    return 0;
+}
