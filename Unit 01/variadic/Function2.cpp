@@ -6,6 +6,6 @@ void sum(int x, int y)
 }
 int main()
 {
-    sum(10,20,30,40);
+    sum(10,20,30);
     return(0);
 }
