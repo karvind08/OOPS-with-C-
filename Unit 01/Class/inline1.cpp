@@ -3,6 +3,7 @@ using namespace std;
 class Student
 {
     int roll;
+    string name;
     public:
         void getroll(int);
         void showroll();
