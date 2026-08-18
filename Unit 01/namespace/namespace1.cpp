@@ -16,15 +16,17 @@ namespace Second{
 }
 void display()
 {
-    cout<<"I am in display method";
+    cout<<"\nI am in display method";
 }
 
 int main()
 {
     int x = 1000;
     display();
-    cout<<"\n"<<x;
-    cout<<First::x;
+    cout<<"\n"<<x<<endl;
+    cout<<First::x<<endl;
     First::display();
+    cout<<"\n"<<Second::x;
+    Second::display();
 }
 
