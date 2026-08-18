@@ -15,5 +15,5 @@ using namespace English;
 using namespace Spanish;
 
 int main() {
-    greet();   // Error: ambiguous
+    // greet();   // Error: ambiguous
 }
