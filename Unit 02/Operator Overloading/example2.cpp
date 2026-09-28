@@ -32,6 +32,6 @@ int main()
     E2.getdata(100,200);
     E2.display();
     // E3 = E1.sum(E2);
-    E3 = E1+E2;
+    // E3 = E1+E2;
     E3.display();
 }
