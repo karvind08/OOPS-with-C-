@@ -21,7 +21,7 @@ Example Example::sum(Example E)
 {
     Example S;
     S.a = a+E.a;
-    S.b = b+S.b;
+    S.b = b+E.b;
     return S;
 }
 int main()
