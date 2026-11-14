@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 class Employee
 {
 private:
@@ -10,7 +9,6 @@ private:
 
 public:
     Employee(int eno, string n);
-
     void displayHigher(const Employee &e) const;
 };
 
