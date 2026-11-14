@@ -1,21 +1,14 @@
 #include <iostream>
 using namespace std;
-
-class Rectangle
-{
+class Rectangle{
 private:
     int length;
     int breadth;
-
 public:
-    Rectangle(int l)
+    Rectangle(int l,int b=10)
     {
         length = l;
-        breadth = 10; // default value
-    }
-    void setBreadth(int b = 10)
-    {
-        breadth = b;
+        breadth = b; 
     }
     int area();
 };
@@ -27,8 +20,9 @@ int Rectangle::area()
 
 int main()
 {
-    Rectangle r(20);
-    r.setBreadth();
+    Rectangle r(10,20);
     cout << "Area of Rectangle = " << r.area() << endl;
+    Rectangle r1(50);
+    cout << "Area of Rectangle = " << r1.area() << endl;
     return 0;
 }
