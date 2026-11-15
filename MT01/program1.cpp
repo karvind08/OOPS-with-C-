@@ -17,11 +17,11 @@ public:
     }
 
     // Friend function declaration
-    friend void displayHigherEmployee(const Employee& e1, const Employee& e2);
+    friend void displayHigherEmployee(const Employee & , const Employee &);
 };
 
 // Function to display employee with higher employee number
-void displayHigherEmployee(const Employee& e1, const Employee& e2)
+void displayHigherEmployee(const Employee &e1, const Employee &e2)
 {
     if (e1.empid > e2.empid)
     {
