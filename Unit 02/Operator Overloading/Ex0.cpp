@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
-
 class Example
 {
     int a, b;
 
 public:
     Example(int, int);
+    Example(){
+    }
     void display();
     Example sum(Example,Example);
 };
@@ -31,7 +32,7 @@ int main()
     A.display();
     Example B(100,200);
     B.display();
-    Example C(0,0);
+    Example C;
     Example D = C.sum(A,B);
     D.display();
 }
