@@ -35,5 +35,7 @@ int main()
     A.display();
     B.display();
     C.display();
+    C = A+B;
+    C.display();
 
 }
