@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-
 class Example
 {
     int a, b;
-
 public:
     void getdata(int,int);
     void display();
@@ -31,7 +29,7 @@ int main()
     E1.display();
     E2.getdata(100,200);
     E2.display();
-    // E3 = E1.sum(E2);
+    E3 = E1.sum(E2);
     // E3 = E1+E2;
     E3.display();
 }
