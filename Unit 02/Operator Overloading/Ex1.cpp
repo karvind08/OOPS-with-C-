@@ -3,7 +3,6 @@ using namespace std;
 class Example
 {
     int a, b;
-
 public:
     void getdata(int,int);
     void display();

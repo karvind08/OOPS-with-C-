@@ -6,11 +6,12 @@ class Example
 
 public:
     Example(int, int);
-    Example(){
-    }
+    Example();
     void display();
     Example sum(Example,Example);
 };
+Example::Example(){
+}
 Example::Example(int x,int y){
     a = x;
     b = y;
