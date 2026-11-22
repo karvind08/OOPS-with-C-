@@ -11,9 +11,7 @@ Example::Example(int x)
     a = x;
 }
 void Example::display(){
-     {
         cout << "a = " << a << endl;
-    }
 }
 
 int main() {
