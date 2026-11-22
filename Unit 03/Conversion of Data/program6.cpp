@@ -11,7 +11,7 @@ Example::Example(int x) {
     a = x;
 }
 Example::operator int() const {
-     a = a+10;
+    //  a = a+10;
     return a;
 }
 int main() {
