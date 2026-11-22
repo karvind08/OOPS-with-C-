@@ -14,7 +14,7 @@ public:
     void display()
     {
         Inner obj;
-        cout << obj.x << endl;    // Error: x is private in Inner
+        // cout << obj.x << endl;    // Error: x is private in Inner
     }
 };
 
