@@ -17,7 +17,6 @@ public:
     public:
         void display(Outer obj)
         {
-            // Error: x is private in Outer
             cout << obj.x << endl;
         }
     };
