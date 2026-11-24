@@ -19,4 +19,7 @@ int main()
 {
     Example E(10);
     E.display();
+    Example *ptr = &E;
+    cout<<ptr<<endl;
+    ptr->display();
 }
